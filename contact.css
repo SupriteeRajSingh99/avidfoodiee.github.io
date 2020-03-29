@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(momfd1.jpg);
+	background-size: cover;
+}
+.contactform{
+	width: 85%;
+	max-width: 600px;
+	background:lightcoral;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px black;
+	font-family: "Montserrat",sans-serif;
+}
+.contactform h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+.txtb{
+	border: 1px plum;
+	margin: 8px;
+	padding: 12px;
+	border-radius: 8px;
+}
+.txtb label{
+	display: block;
+	text-align: left;
+	color: darkmagenta;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtb input,.txtb textarea{
+	width: 100%;
+	border:none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+input[type="submit"]
+	{
+		background: deeppink;
+		color: black;
+		width: 95%;
+		font-size: 15px;
+		font-weight: bold;
+		text-transform: capitalize;
+		cursor: pointer;
+		padding: 13px;
+		margin-top: -1px;
+		letter-spacing: 2px;
+		margin: 15px;
+		font-family: "Montserrat",sans-serif;
+		transition: 2s all;
+	}
+	input[type="submit"]:hover{
+		color: plum;
+		box-shadow: inset 0px 0px 100px 0px;
+		transition: 1s;
+	}

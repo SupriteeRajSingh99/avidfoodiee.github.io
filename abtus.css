@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(girl.jpg);
+	background-size: cover;
+}
+.box{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: "Montserrat",sans-serif;
+
+}
+.box-img{
+	border-radius: 60%;
+	width: 200px;
+	height: 300px;
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+.box h5{
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.box p{
+	text-align: justify;
+}

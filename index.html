@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homemade food|SRS|avidfoodie</title>
+	<link rel="stylesheet" type="text/css" href="foodweb.css">
+</head>
+<body bgcolor="khaki">
+<!--
+<table border="3" width="100%">
+	<tr>
+		<td width="20%" align="center" bgcolor="darkred" class="links"><font color="khaki">Home</font></td>
+		<td width="20%" align="center" bgcolor="darkred" class="links"><font color="khaki">About Us</font></td>
+		<td width="20%" align="center" bgcolor="darkred" class="links"><font color="khaki">Contact Us</font></td>
+		<td width="20%" align="center" bgcolor="darkred" class="links"><font color="khaki">Menu</font></td>
+		<td width="20%" align="center" bgcolor="darkred" class="links"><font color="khaki">Feedback</font></td>
+	</tr>
+</table>-->
+<header>
+	<nav>
+	<h1>AVID FOODIE</h1>
+		<ul id="new">
+			<li><a class="home" href="#"> Home</a></li>
+			<li><a class="home1" href="aboutus.html"> About Us</a></li>
+			<li><a class="home1" href="contactus.html"> Contact Us</a></li>
+			<li><a class="home1" href="feedback.html"> Feedback</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="divider"></div>
+<!--
+<div id="d1"><font size="40"><center><i><h6>This is a food page containing all the home made foods</h6></i></center></font></div>
+<img src="hmadef.png" width="100%" height=400px>-->
+<div class="writeup">
+	<h2 class="home2">HI!My name is SUPRITEE &</h2>
+	<h1 class="home3">I LOVE TO EAT </h1>
+	<h1 class="home4">AND COOK.</h1>
+</div>
+<div class="divider"></div>
+<table border="3" width="100%">
+	<tr>
+		<td width="25%" align="center" class="zoom"><img src="1.jpg" height="25%"><h5 class="sub-head">Chicken platter</h5></td>
+		<td width="25%" align="center" class="zoom"><img src="2.jpg" height="33%"><h5 class="sub-head">Chicken hot and sour soup</h></td>
+		<td width="20%" align="center" class="zoom"><img src="3.jpg" height="7%"><h5 class="sub-head">Veg Sandwich</h5></td>
+		<td width="30%" align="center" class="zoom"><img src="4.jpg" height="7%"><h5 class="sub-head">Pepper Chicken</h5></td>
+	</tr>
+	<tr>
+		<td width="25%" align="center" class="zoom"><img src="5.jpg" height="28%"><h5 class="sub-head">Schezwan pea rice and Paneer lababdar</h5</td>
+		<td width="25%" align="center" class="zoom"><img src="6.jpg" height="30%"><h5 class="sub-head">Prawn chilli</h5</td>
+		<td width="20%" align="center" class="zoom"><img src="7.jpg" height="27%"><h5 class="sub-head">Chenna Kheer</h5</td>
+		<td width="30%" align="center" class="zoom"><img src="8.jpg" height="8%"><h5 class="sub-head">Paneer Tikka</h5</td>
+	</tr>
+	<tr>
+		<td width="25%" align="center" class="zoom"><img src="9.jpg" height="8%"><h5 class="sub-head">Gobi rice and Paneer chilli</h5</td>
+		<td width="25%" align="center" class="zoom"><img src="10.jpg" height="14%"><h5 class="sub-head">Methi Puri and Chole</h5</td>
+		<td width="20%" align="center" class="zoom"><img src="11.jpg" height="8%"><h5 class="sub-head">Punjabi Thali</h5</td>
+		<td width="30%" align="center" class="zoom"><img src="12.jpg" height="27%"><h5 class="sub-head">Creamy cashew Chicken</h5</td>
+	</tr>
+</table>
+<table bgcolor="darkred" width="100%">
+	<tr>
+		<td align="center"><font color="khaki"> Designed by Supritee</td></font>
+	</tr>
+</table>
+
+
+
+<script>	
+	document.querySelectorAll('.zoom').forEach( function(element, index) {
+		element.onmouseenter = function(){
+			document.getElementsByClassName('sub-head')[index].style.display = 'block';
+		}
+		element.onmouseleave = function(){
+			document.getElementsByClassName('sub-head')[index].style.display = 'none';
+		}
+	});
+</script>
+</body>
+</html>
